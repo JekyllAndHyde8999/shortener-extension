@@ -1,0 +1,21 @@
+{
+    "name": "Shortener Extension",
+    "version": "0.1",
+    "description": "Build a Basic Extension!",
+    "permissions": ["tabs", "activeTab"],
+    "browser_action": {
+        "default_popup": "popup/popup.html",
+        "default_icon": {
+            "16": "img/logo.png"
+        },
+        "default_title": "Shorten a URL!"
+    },
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["scripts/content.js"]
+    }],
+    "background": {
+        "scripts": ["scripts/background.js"]
+    },
+    "manifest_version": 2
+}

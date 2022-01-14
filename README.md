@@ -23,4 +23,6 @@ _This extension has only been tested on Google Chrome._
 
 ![usage](readme-assets/usage1.png)
 
-![usage](readme-assets/usage2.png)
+![usage](readme-assets/usage3.png)
+
+You can copy the shortened URL by clicking the copy icon next to the link.
